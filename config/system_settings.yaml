@@ -1,0 +1,6 @@
+parameters:
+  foo_bar.baz: 'qux'
+  nested:
+    foo: 'bar'
+    bar: 'baz'
+  system.my_setting: '%env(MY_SETTING)%'
